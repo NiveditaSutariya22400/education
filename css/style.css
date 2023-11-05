@@ -1,0 +1,436 @@
+:root {
+  --bg-brimary: #007A5C;
+  --bg-brimary-rgb: 214, 51, 132;
+  --bg-white: #ffffff;
+  --bg-white-rgb: 255, 255, 255;
+  --bg-black: #000000;
+  --bg-black-rgb: 0, 0, 0;
+  --bg-dark-green: #32404d;
+  --bg-dark-green-rgb: 50, 64, 77;
+  --bg-text: #635c5c ;
+  --bg-text-rgb: 99, 92, 92;
+  --bg-text-green: #00B78A ;
+  --bg-text-green-rgb: 0, 183, 138;
+  --bg-bg-cream: #fcf2eb ;
+  --bg-bg-cream-rgb: 252, 242, 235;
+  --bg-bg-light-g:#f2fbf9 ;
+  --bg-bg-light-g-rgb: 242, 251, 249;
+  --bg-bg-footer:#32404d ;
+  --bg-bg-footer-rgb: 50, 64, 77;
+  --bg-text-gray:#A7AEB4 ;
+  --bg-text-gray-rgb: 167, 174, 180;
+}
+
+.bg-gray1 {
+  background-color: #fbf9ff;
+}
+
+.text {
+  color: var(--bg-text-gray);
+}
+
+body {
+  font-family: "Chivo";
+}
+
+.primary {
+  background-color: var(--bg-brimary);
+}
+
+.primary-text {
+  color: var(--bg-brimary);
+}
+
+.bg-footer {
+  background-color: var(--bg-bg-footer);
+}
+
+.bg-footer-text {
+  color: var(--bg-bg-footer);
+}
+
+.font-10 {
+  font-size: 10px;
+}
+
+.font-12 {
+  font-size: 12px;
+}
+
+.font-14 {
+  font-size: 14px;
+}
+
+.font-16 {
+  font-size: 16px;
+}
+
+.font-18 {
+  font-size: 18px;
+}
+
+.font-20 {
+  font-size: 20px;
+}
+
+.font-22 {
+  font-size: 22px;
+}
+
+.font-24 {
+  font-size: 24px;
+}
+
+.font-26 {
+  font-size: 26px;
+}
+
+.font-28 {
+  font-size: 28px;
+}
+
+.font-30 {
+  font-size: 30px;
+}
+
+.font-36 {
+  font-size: 36px;
+}
+
+.font-44 {
+  font-size: 44px;
+}
+
+.font-50 {
+  font-size: 50px;
+}
+
+.font-56 {
+  font-size: 56px;
+}
+
+.font-54 {
+  font-size: 54px;
+}
+
+.font-40 {
+  font-size: 40px;
+}
+
+.font-70 {
+  font-size: 70px;
+}
+
+.w-44 {
+  width: 44px;
+}
+
+.pd-100 {
+  padding: 100px 0px;
+}
+
+.pt-100 {
+  padding-top: 100px;
+}
+
+.pb-100 {
+  padding-bottom: 100px;
+}
+
+.pd-80 {
+  padding: 80px 0px;
+}
+
+.pt-80 {
+  padding-top: 80px;
+}
+
+.pb-80 {
+  padding-bottom: 80px;
+}
+
+.pd-50 {
+  padding: 50px 0px;
+}
+
+.pt-50 {
+  padding-top: 50px;
+}
+
+.pb-50 {
+  padding-bottom: 50px;
+}
+
+.btt {
+  width: 50px;
+  height: 50px;
+  background-color: var(--bg-brimary);
+  border-radius: 100%;
+  border: 1px solid var(--bg-text-green);
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  text-align: center;
+  line-height: 50px;
+}
+
+.btt {
+  transition: all 1s;
+}
+.btt i {
+  transition: all 1s;
+}
+.btt:hover {
+  transform: scale(1.1);
+}
+.btt:hover i {
+  transform: scale(1.2) rotatey(180deg);
+}
+
+header {
+  z-index: 9999;
+}
+header .topbar .right .t-icon {
+  width: 40px;
+  height: 40px;
+  border: 2px solid var(--bg-brimary);
+  text-align: center;
+  line-height: 40px;
+  border-radius: 100%;
+  margin-left: 10px;
+  transition: all 1s;
+}
+header .topbar .right .t-icon i {
+  transition: all 1s;
+}
+header .topbar .right .t-icon:hover {
+  background-color: var(--bg-white);
+  transform: scale(1.2);
+}
+header .topbar .right .t-icon:hover i {
+  color: var(--bg-brimary) !important;
+}
+
+.banner {
+  background-image: url(../img/h1_hero1.jpg.webp);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center center;
+}
+.banner .b-content {
+  padding: 200px 0px;
+}
+.banner .b-content .b-btn {
+  outline: none;
+  border: none;
+  background-color: var(--bg-brimary);
+  color: var(--bg-white);
+  border: 1px solid transparent;
+  transition: all 1s;
+}
+.banner .b-content .b-btn:hover {
+  background-color: transparent;
+  border: 1px solid var(--bg-white);
+}
+
+.about {
+  background-color: var(--bg-bg-cream);
+}
+.about .about-content a {
+  border-bottom: 2px solid var(--bg-brimary);
+  transition: all 1s;
+}
+.about .about-content a:hover {
+  letter-spacing: 2px;
+}
+
+.program .p-mainbox {
+  transition: all 1s;
+  border: 1px solid rgb(212, 204, 204);
+}
+.program .p-mainbox .p-box .p-img {
+  overflow: hidden;
+}
+.program .p-mainbox .p-box .p-img img {
+  transition: all 1s;
+  z-index: 9;
+}
+.program .p-mainbox .p-box .p-content h2 {
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.program .p-mainbox .p-box .p-content h2:hover {
+  color: #007A5C;
+}
+.program .p-mainbox .p-box .p-content a {
+  border-bottom: 2px solid var(--bg-brimary);
+  transition: all 1s;
+}
+.program .p-mainbox .p-box .p-content a:hover {
+  letter-spacing: 2px;
+}
+.program .p-mainbox:hover {
+  border: 1px solid var(--bg-brimary);
+}
+.program .p-mainbox:hover .p-box .p-img img {
+  transform: scale(1.1);
+}
+
+.story .common-heading h3 a {
+  border-bottom: 2px solid var(--bg-brimary);
+  transition: all 1s;
+}
+.story .common-heading h3 a:hover {
+  letter-spacing: 2px;
+}
+.story .story-box {
+  transition: all 1s;
+  overflow: hidden;
+}
+.story .story-box .story-img {
+  overflow: hidden;
+}
+.story .story-box .story-img img {
+  transition: all 1s;
+  z-index: 9;
+}
+.story .story-box .story-content p {
+  transition: all 0.5s;
+}
+.story .story-box .story-content:hover p {
+  color: #007A5C;
+}
+.story .story-box:hover img {
+  transform: scale(1.1);
+}
+
+.resource {
+  background-color: var(--bg-bg-light-g);
+}
+.resource .r1-box {
+  transition: all 0.8s;
+}
+.resource .r1-box:hover {
+  background-color: #00B78A;
+  color: white;
+}
+
+.student {
+  background-color: #007A5C;
+}
+.student .student-details {
+  width: 70%;
+}
+.student .student-details h3 a {
+  border-bottom: 2px solid var(--bg-white);
+  transition: all 1s;
+}
+.student .student-details h3 a:hover {
+  letter-spacing: 2px;
+}
+
+.footer .footer-main ul li a {
+  transition: all 1s;
+}
+.footer .footer-main ul li:hover a {
+  color: var(--bg-white);
+  letter-spacing: 2px;
+}
+.footer .footer-5 .icon-box .icon i {
+  transition: all 0.5s;
+}
+.footer .footer-5 .icon-box .icon i:hover {
+  transform: scale(1.2) rotatey(180deg);
+}
+
+.banner-2 {
+  background-image: url(../img/h2_hero1.jpg.webp);
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+.banner-2 .banner-2content {
+  padding: 100px 0px;
+}
+
+@media (min-width: 120px) and (max-width: 575px) {
+  header .mainbar img {
+    width: 100px;
+  }
+  .banner {
+    height: 80vh;
+  }
+  .banner .b-content {
+    padding: 50px 20px;
+  }
+  .banner .b-content span {
+    font-size: 18px;
+  }
+  .banner .b-content h1 {
+    font-size: 30px;
+  }
+  .banner .b-content p {
+    font-size: 12px;
+  }
+  .about .about-content h1 {
+    font-size: 24px;
+  }
+  .about .about-content p {
+    font-size: 14px;
+  }
+  .program .common-heading h1 {
+    font-size: 24px;
+  }
+  .program .common-heading p {
+    font-size: 14px;
+  }
+  .program .p-mainbox .p-box .p-content h2 {
+    font-size: 20px;
+  }
+  .program .p-mainbox .p-box .p-content p {
+    font-size: 14px;
+  }
+  .resource .re-box .common-heading h1 {
+    font-size: 24px;
+  }
+  .resource .re-box .common-heading h3 {
+    font-size: 16px;
+  }
+  .resource .re-box .r1-box .r1-content h4 {
+    font-size: 18px;
+  }
+  .resource .re-box .r1-box .r1-content p {
+    font-size: 14px;
+  }
+  .story .common-heading h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  .story .story-box .story-content p {
+    font-size: 16px;
+  }
+  .brand .common-heading h1 {
+    font-size: 24px;
+  }
+  .brand .common-heading h3 {
+    font-size: 16px;
+  }
+  .student .student-content .student-details h1 {
+    font-size: 20px;
+  }
+  .student .student-content .student-details p {
+    font-size: 16px;
+  }
+  .banner-2 .banner-2content h1 {
+    font-size: 36px;
+  }
+  .banner-2 .banner-2content p {
+    font-size: 16px;
+  }
+}
+.blog .blog-box-2 .blogbox-2 h5 {
+  cursor: pointer;
+  transition: all 0.8s;
+}
+.blog .blog-box-2 .blogbox-2 h5:hover {
+  color: #007A5C;
+}/*# sourceMappingURL=style.css.map */
